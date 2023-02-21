@@ -80,7 +80,8 @@ start = time.time()
 x = 0
 o = 0
 draw = 0
-for i in range(1000):
+cycle = 1000
+for i in range(cycle):
     position_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     result = tic_tac_tow(position_list)
     if result == 'X':
